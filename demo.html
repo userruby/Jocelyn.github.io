@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>DEMO</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap-5.1.3-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+		html{ 
+	overflow-x:hidden; 
+}
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar-top-fixed.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" style="background-color: #fd7e14;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="logo/2.jpg" alt="" class="d-inline-block align-text-top">Jocelyn</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="demo.html#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="story.html">Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="member.html">Member</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Q&A</a>
+        </li>
+      </ul>
+
+      
+
+       <li class="nav navbar-nav navbar-right">     
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+        </li>
+    
+      
+      </form>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/4.png" width="100%" height="100%">
+       <rect width="100%" height="100%" fill="#777"/>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Make usual days unusual.</h1>
+            <p></p>
+            <p><a class="btn btn-lg btn-outline-secondary" href="member.html">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/5.png" width="100%" height="100%"><rect width="100%" height="100%" fill="#777"/>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="text-dark">Jocelyn, just for you</h1>
+            <p></p>
+            <p><a class="btn btn-lg btn-outline-secondary" href="story.html">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/6.png" width="100%" height="100%"><rect width="100%" height="100%" fill="#777"/>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="text-dark">Opening Special.</h1>
+            <p  class="text-dark" >Buy oen get one 20% off.</p>
+            <p><a class="btn btn-lg btn-outline-secondary" href="shop.html">Sopping now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+       <script src="bootstrap-5.1.3-examples/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- START THE FEATURETTES -->
+
+
+<div class="container marketing">
+ <br>
+ <br>
+ <br>
+
+    <div class="row justify-content-evenly">
+      <div class="col-xl-6 col-lg-4 cll-12">
+        <h2 class="featurette-heading">品牌 <span class="text-muted">堅持.</span></h2>
+        <p class="lead">一個來自台灣的自創香氛品牌，
+          每一款香氛的調香都是創辦人親自製作，打造專屬於Jocelyn獨一無二的氣味。
+          品牌成立不到一年及在網路上獲得高度關注，在台中大遠百及新光陸續有快閃實體櫃，讓喜愛Jocelyn朋友可以前來親自感受香氛。
+          <br><br>
+          憑藉著對於香氣的熱情，從擴香、浮游花擴香再到蠟燭，都是親自參與製作。雖然過程很辛苦，不過想到自己的作品能夠完美的呈現在大家的手裡，一切辛苦都是值得的。</p>
+      </div>
+      <div class="col-md-4 col-6">
+        <img src="images/2.jpg" width="300" height="300">
+        <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+
+      </div>
+    </div>
+</div>
+
+  
+
+<!-- Custom styles for this template -->
+    <link href="features.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="row px-4 py-5 mt-5">
+    <img src="images/8.png">
+  </div>
+
+
+  <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">All items</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col-12 col-lg-4">
+        <h3>香氛蠟燭</h3>
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('images/1.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold"><br><br><br></h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small></small>
+              </li>
+              <li class="d-flex align-items-center">
+                
+                <small></small>
+                <button type="button" class="btn btn-secondary btn-sm">More.</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="col-12 col-lg-4">
+        <h3>天然擴香</h3>
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('images/c.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><br><br><br></h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small></small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small></small>
+                <button type="button" class="btn btn-secondary btn-sm">More.</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <h3>融蠟燈</h3>
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('images/b.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><br><br><br></h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>123456</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small></small>
+                <button type="button" class="btn btn-secondary btn-sm">More.</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</main>
+
+<!-- footer -->
+
+<div class="container">
+  <footer class="py-3 my-4">
+    
+    <img src="logo/3.png" class="rounded mx-auto d-block" width="80" height="65">
+    <h5 class="text-center text-muted">Jocelyn Frangrace</h5>
+     <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+  </footer>
+</div>
+
+
+  
+
+
+  </body>
+</html>
